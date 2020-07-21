@@ -3,4 +3,114 @@
    uuid = "E85F4C93-9FCC-45F5-AB99-8794F9C12892"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EC43969-8485-461E-9745-AEB15FCE1363"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sumoneClone/AlarmViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "AlarmViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1EC43969-8485-461E-9745-AEB15FCE1363 - ae7eac6e1764dd9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumoneClone.AlarmViewController.tableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "sumoneClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choiseoyeon/Desktop/Sumone%20Clone/sumoneClone/sumoneClone/AlarmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "1EC43969-8485-461E-9745-AEB15FCE1363 - f76da822fc1a8990"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumoneClone.AlarmViewController.tableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "sumoneClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choiseoyeon/Desktop/Sumone%20Clone/sumoneClone/sumoneClone/AlarmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "1EC43969-8485-461E-9745-AEB15FCE1363 - ea73dc4ef224729f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumoneClone.AlarmViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "sumoneClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choiseoyeon/Desktop/Sumone%20Clone/sumoneClone/sumoneClone/AlarmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "1EC43969-8485-461E-9745-AEB15FCE1363 - bba503c54ed84004"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumoneClone.AlarmViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "sumoneClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choiseoyeon/Desktop/Sumone%20Clone/sumoneClone/sumoneClone/AlarmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "1EC43969-8485-461E-9745-AEB15FCE1363 - a26d5ceea90e5b65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumoneClone.AlarmViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; sumoneClone.AlarmViewController"
+                  moduleName = "sumoneClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choiseoyeon/Desktop/Sumone%20Clone/sumoneClone/sumoneClone/AlarmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "1EC43969-8485-461E-9745-AEB15FCE1363 - 705673e22ceabb9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumoneClone.AlarmViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;sumoneClone.AlarmViewController&gt;"
+                  moduleName = "sumoneClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choiseoyeon/Desktop/Sumone%20Clone/sumoneClone/sumoneClone/AlarmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

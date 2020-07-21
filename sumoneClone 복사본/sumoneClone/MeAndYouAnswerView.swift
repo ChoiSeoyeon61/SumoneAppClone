@@ -16,7 +16,7 @@ class MeAndYouAnswerView: UIViewController {
     @IBOutlet weak var yourAnswer: UILabel!
     @IBOutlet weak var writeAnswer: UIButton!
     @IBOutlet weak var goReply: UIButton!
-    @IBAction func goBack(_ sender: Any) {
+    @IBAction func goBackAction(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
     

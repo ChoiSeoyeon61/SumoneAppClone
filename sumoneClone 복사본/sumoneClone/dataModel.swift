@@ -46,23 +46,24 @@ enum AlarmType {
 struct Alarm {
     var type: AlarmType
     var text: String
-    var recievedAt: Date
+    var recievedAt: DateComponents
 }
 
 let me = User(name: "서연", birthday: "2003-07-28", bloodtype: "AB", loginwith: "카카오톡",  coupleMember: "시아")
 
 let alarms:[Alarm] = [
-    Alarm(type: .Answer, text: "대답1", recievedAt: Date()),
-    Alarm(type: .Question, text: "질문1", recievedAt: Date()),
-    Alarm(type: .Reply, text: "답글1", recievedAt: Date()),
-    Alarm(type: .Reply, text: "답글2", recievedAt: Date()),
-    Alarm(type: .Question, text: "질문2", recievedAt: Date())
+    Alarm(type: .Answer, text: "대답1", recievedAt: DateComponents(calendar: Calendar.current, year: 2019, month: 8, day: 19)),
+    Alarm(type: .Question, text: "질문1", recievedAt: DateComponents(calendar: Calendar.current, year: 2019, month: 8, day: 19)),
+    Alarm(type: .Reply, text: "답글1", recievedAt: DateComponents(calendar: Calendar.current, year: 2019, month: 8, day: 19)),
+    Alarm(type: .Reply, text: "답글2", recievedAt: DateComponents(calendar: Calendar.current, year: 2013, month: 8, day: 19)),
+    Alarm(type: .Question, text: "질문2", recievedAt: DateComponents(calendar: Calendar.current, year: 2000, month: 8, day: 19))
 ]
+
 
 var questionList: [Question] = [
       Question(number: "01", question: "당신은 어떤 사람인지 소개해주세요. \nTMI도 좋아요!",answerFromMe: "얄라리", answerFromOther: "얄라"),
-      Question(number: "02", question: "그 사람을 처음 마주했을 때 \n당신의 감정을 표현해보세요.",answerFromMe: "", answerFromOther: ""),
-      Question(number: "03", question: "그 사람을 생각하면 \n떠오르는 노래가 있나요?",answerFromMe: "", answerFromOther: ""),
+      Question(number: "02", question: "그 사람을 처음 마주했을 때 당신의 감정을 표현해보세요.",answerFromMe: "", answerFromOther: ""),
+      Question(number: "03", question: "그 사람을 생각하면 떠오르는 노래가 있나요?",answerFromMe: "", answerFromOther: ""),
       Question(number: "04", question: "난 사실 너의 마음을 얻기 위해 ____했어",answerFromMe: "", answerFromOther: ""),
       Question(number: "05", question: "상대방과 닮은 동물은 무엇인가요?",answerFromMe: "", answerFromOther: "")
    ]

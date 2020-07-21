@@ -71,7 +71,7 @@ class mainViewController: UIViewController {
     }
     
     @IBAction func AlarmAction(_ sender: Any) {
-        performSegue(withIdentifier: "goToAlarm", sender: nil)
+      
     }
 }
 

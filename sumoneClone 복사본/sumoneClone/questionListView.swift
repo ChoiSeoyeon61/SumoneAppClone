@@ -45,7 +45,7 @@ class questionListView: UIViewController, UITableViewDataSource, UITableViewDele
         let list:Question
 
         list = questionList[indexPath.row]
-        cell.questionNumber.text = list.number
+        cell.questionNumber.text = "#\(list.number)"
         cell.questionText.text = list.question
 
       return cell
@@ -65,14 +65,18 @@ class questionListView: UIViewController, UITableViewDataSource, UITableViewDele
            }
        }
     }
-      
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return CGFloat(65)
+      }
     
     @IBOutlet weak var QuestionTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
- self.QuestionTableView.dataSource = self
-self.QuestionTableView.delegate = self
+      
+        self.QuestionTableView.dataSource = self
+        self.QuestionTableView.delegate = self
+        
         // Do any additional setup after loading the view.
     }
     

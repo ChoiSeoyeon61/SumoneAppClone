@@ -9,13 +9,37 @@
 import UIKit
 
 class AlarmViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBOutlet weak var alarmTableView: UITableView!
+    @IBOutlet weak var alarmText: UILabel!
+    
+    @IBOutlet weak var timeText: UILabel!
+    @IBOutlet weak var commentButton: UIButton!
+    @IBOutlet weak var alarmImage: UIImageView!
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return alarms.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel?.text = alarms[indexPath.row].text
+        
+        let calendar = Calendar.current
+        let alarmTime = alarms[indexPath.row].recievedAt
+        
+        let currentTime = Date()
+        
+        let currentTimeYMD = calendar.dateComponents([.year,.month,.day], from: currentTime)
+        
+        let fromDdayToToday = calendar.dateComponents([.day], from: alarmTime, to: currentTimeYMD)
+        
+        if case let (day?) = ( fromDdayToToday.day) {
+            timeText.text = "\(day)일 전"
+        }
+          
+        alarmText.text = alarms[indexPath.row].text
+        
         return cell
     }
     
@@ -27,7 +51,6 @@ class AlarmViewController: UIViewController, UITableViewDataSource, UITableViewD
         case .Answer:
             break
         case .Question:
-//            self.performSegue(withIdentifier: "segue", sender: datatoSend)
             break
         case .Reply:
             break
