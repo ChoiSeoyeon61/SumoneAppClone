@@ -41,7 +41,9 @@ class MeAndYouAnswerView: UIViewController {
             //enumerated() 메소드 : 배열의 데이터와 그 배열의 인덱스 정보를 같이 가져옴. enumerated()를 쓰면 중간에 프라퍼티가 한 단계 낌. element와 offset. element는 딱 데이터고, offset은 번호. 그 중 offset은 뒤에 가서 WriteAnswerView에 쓰임.
             for question in questionList.enumerated() {
                 if received.number == question.element.number {
+                    print(receivedQuestion)
                     self.receivedQuestion = question.element
+                    print(receivedQuestion)
                 }
             }
         }
